@@ -22,7 +22,7 @@ export class UserList extends Component {
       .getUser({headers})
       .then(
         (response) => {
-          console.log(response);
+          console.log(response.data);
           this.setState({
             users: response.data
           })

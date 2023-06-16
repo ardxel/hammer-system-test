@@ -15,7 +15,7 @@ const getEnv = () => {
 		case 'development':
 			return dev
 		case 'production':
-			return prod
+			return dev
 		case 'test':
 			return test
 		default:
